@@ -34,4 +34,5 @@ if __name__ == "__main__":
   headers = {
     'Authorization': 'Bearer {token}'.format(token=access_token)
   }
-  print(get_artist_info())
+  data = get_artist_info()
+  print(data)
